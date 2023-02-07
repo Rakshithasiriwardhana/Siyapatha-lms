@@ -1,0 +1,149 @@
+@charset "utf-8";
+body {
+	background-color: #e5e5e5;
+}
+.container {
+	width: 600px;
+	height: 350px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	background-color: #FFFFFF;
+	box-shadow: 6px 5px 46px rgba(0, 0, 0, 0.25);
+}
+.left {
+	float: left;
+	background: linear-gradient(143.7deg, #423E9E 0%, #B345BB 100%);
+	width: 50%;
+	height: 100%;
+}
+.right {
+	float:right;
+	width: 50%;
+	height: 100%;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.blocktext{
+	margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+p,.alert{
+	font-family: Roboto;
+	font-style: normal;
+	color: #FFFFFF;	
+	margin: 0;
+    padding: 0;
+}
+#top{
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+}
+#meddle{
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 15px;
+	margin-top: 11px;
+}
+#low{
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 15px;
+	color: rgba(255, 255, 255, 0.9);
+	margin-top: 2px;
+}
+img{
+	margin-top: 2px;
+}
+#login{
+	color: #5C5C5C;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom: 52px;
+}
+.tbox{
+	width: 220px;
+	height: 30px;
+	border: 1px solid #999999;
+	box-sizing: border-box;
+	border-radius: 68px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 15px;
+	color: #999999;
+	padding-left: 13px;
+	padding-right: 30px;
+	margin-bottom: 19px;
+	outline:0;
+	
+}
+.button-reset{
+	border: none;
+	background-color: white;
+	color: #757575;
+	cursor: pointer;
+	text-decoration: underline;
+	margin-top: -12px;
+}
+.button-purple{
+	background: #B345BB;
+	box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.25);
+	border-radius: 38px;
+	width: 164px;
+	height: 30px;
+	color:white;
+	border: none;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	margin-top: 42px;	
+	cursor: pointer;
+}
+
+.button-purple:hover{background-color: #a421ad}
+.button-reset:hover{color: #2b2b2b}
+
+.button-purple:active, .button-reset:active {
+  	opacity: 0.7;
+}
+aside{
+	margin-top: 52px;
+}
+.alert{
+	position: absolute;
+	color: #FF0000;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	text-indent: 61px;
+	top:175px;
+}
+#username{
+	background-image: url('images/icons/user.png');
+	background-position: 95% center;
+	background-size: 12px;
+	background-repeat: no-repeat;
+	
+	
+}
+#password{
+	background-image: url('images/icons/lock.png');
+	background-position: 95% center;
+	background-size: 12px;
+	background-repeat: no-repeat;
+}
